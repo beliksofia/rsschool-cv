@@ -1,1 +1,1 @@
-# rsschool-cv12
+https://beliksofia.github.io/rsschool-cv/cv
