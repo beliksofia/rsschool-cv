@@ -2,3 +2,88 @@
     font-weight: bold;
     color: red;
 }
+.header{
+  background-color: rgb(45, 80, 59);
+}
+body{
+ color:rgb(80, 55, 104);  
+ font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; 
+ font-size: 14px; 
+ font-style: normal; 
+ font-variant: normal; 
+ font-weight: 400; 
+ line-height: 20px;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 50%;
+    padding: 20px;
+    height: 500px; 
+  }
+
+  .left {
+    background-color:rgb(143, 172, 146);
+  }
+
+  .right {
+    background-color:rgb(222, 238, 219);
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  a { color: #000000; }
+  .why {
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700; 
+    line-height: 15.4px;
+  }
+
+  .myMenu  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .myMenu li {
+     float: left;
+  }
+  
+  .myMenu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .myMenu li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .myMenu li a.active {
+    float: right;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    background-color:rgb(45, 80, 59)
+ }
+                  
