@@ -86,4 +86,25 @@ body{
     text-align: center;
     background-color:rgb(45, 80, 59)
  }
-                  
+
+ .logo {
+    width:42px;
+    height:42px;
+/* -align: right; */
+
+ }
+
+ .avatarDiv {
+  display: table;
+}
+
+  .avatarImg {
+  vertical-align: middle;
+  display: table-cell;
+  padding: 10px 10px 10px 10px;
+  ;
+}
+  .avatarSpan {
+  vertical-align: middle;
+  display: table-cell;
+}
