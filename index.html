@@ -1,89 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <link rel="stylesheet" href="style.css">
-        <title>my CV</title>
-        <meta name="description" content="my description">
-        <meta name="keywords" content="html template">
-    </head>
-    <body>
-      <header class="header">
-        <div>
-          <nav>
-            <ul class="myMenu">
-              <li>
-                <a  href="#">My contacts</a>
-              </li>
-              <li>
-                <a href="#">Code</a>
-              </li>
-              <li>
-                <a href="#">Skills list</a>
-              </li>
-              <li>
-                <a href="#">English</a>
-              </li>
-              <li>
-                <a href="#">Courses</a>
-              </li>
-              <li>
-                <a href="#">Personal projects</a>
-              </li>
-              <li>
-                <a href="#">Education</a>
-              </li>
-              <li>
-                <a href="#">Some about me</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-        </header>
-        <main> <div class="row">
-          <h1>Sofia Belik</h1>
-          <h3 class="why">Junior Front-End Developer</h3>
+  <head>
+      <link rel="stylesheet" href="style.css">
+      <title>my CV</title>
+      <meta name="description" content="my description">
+      <meta name="keywords" content="html template">
+  </head>
+  <body>
+    <header class="header">
+      <div>
+        <nav>
+          <ul class="myMenu">
+            <li>
+              <a href="#contacts">My contacts</a>
+            </li>
+            <li>
+              <a href="#code">Code</a>
+            </li>
+            <li>
+              <a href="#skills">Skills list</a>
+            </li>
+            <li>
+              <a href="#english">English</a>
+            </li>
+            <li>
+              <a href="#courses">Courses</a>
+            </li>
+            <li>
+              <a href="#projects">Personal projects</a>
+            </li>
+            <li>
+              <a href="#education">Education</a>
+            </li>
+            <li>
+              <a href="#about">Some about me</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      </header>
+      <main>
+          <div class="avatarDiv">
+            <span class="avatarSpan">
+              <img class="avatarImg" src="images/avatar.jpg" width="150" height="150"/>
+            </span>
+              <h1>Sofia Belik</h1>
+              <h3 class="why">Junior Front-end developer</h3>
+          </div>
+        <div class="row">
           <div class="column left">
-            <h2>Contacts</h2>
-            <p>Location: Lepel,Belarus</p>
-            <p>Phone:+375293298314</p>
-            <p>Email:beliksofia460@gmail.com</p>
-            <p>GitHub: <a href="https://github.com/beliksofia">beliksofia </a></p>
-            <p>Telegram:<a href="https://t.me/heniasis">@heniasis</a></p>
-            <h2>Code example</h2>
-         
-         <code>function multiply(a, b){
-          return a * b
-        }
-         </code>
-         
-         <h2>Skills</h2>
-         <p>- HTML</p>
-         <p>- CSS</p>
+            <h2 id="contacts">Contacts</h2>
+              Location: Lepel,Belarus<br>
+            Phone:+375293298314<br>
+            Email:beliksofia460@gmail.com<br>
+            GitHub: <a href="https://github.com/beliksofia">beliksofia </a><br>
+            Telegram:<a href="https://t.me/heniasis">@heniasis</a><br>
+
+            <h2 id="code">Code example</h2>
+            <code>
+                function multiply(a, b){
+                return a * b
+              }
+            </code>
+
+            <h2 id="skills">Skills</h2>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
           </div>
           <div class="column right">
-            <h2>English</h2>
-            B1
-            <h2>Courses</h2>
+            <h2 id="english">English</h2>
+            <p>B1</p>
+
+            <h2 id="courses">Courses</h2>
             <p>html.academy</p>
-            <h2>Projects</h2>
-            <p></p>
-            <h2>Education</h2>
+
+            <h2 id="projects">Projects</h2>
+            <p>https://beliksofia.github.io/rsschool-cv/</p>
+
+            <h2 id="education">Education</h2>
             <p>middle school</p>
-            <h2>Personality</h2>
+
+            <h2 id="about">Personality</h2>
             <p>I am a middle school student. I am going to be a developer in the field of programming and in the future to make the main activity. I have basic knowledge in layout and I want to develop it further.</p>
           </div>
         </div>
-      </main>  
-        <footer class="footer">
-          <div>
-             2022
-            <a href="https://github.com/beliksofia">beliksofia</a>
-          </div>
-          <br>
-          <div>
-            <a href="https://rs.school/js-stage0/">rs.school</a>
-          </div>
-        </footer>
-
-    </body>
+      </main>
+      <footer class="footer">
+        <div>
+            2022
+          <a href="https://github.com/beliksofia">beliksofia</a>
+        </div>
+        <br>
+        <div>
+          <a href="https://rs.school/js-stage0/">
+            <img class="logo" src="https://rs.school/images/rs_school_js.svg">
+          </a>
+        </div>
+      </footer>
+  </body>
 </html>
